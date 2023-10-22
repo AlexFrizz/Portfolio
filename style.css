@@ -204,6 +204,10 @@ section {
 
 /* PROFILE SECTION */
 
+.picture {
+  border-radius: 90px;
+}
+
 #profile {
   display: flex;
   justify-content: center;
@@ -239,6 +243,13 @@ section {
   text-align: center;
   color: var(--color-on-background);
 }
+
+.title span{
+  font-size: 3rem;
+  text-align: center;
+  color: var(--color-primary);
+}
+
 
 #socials-container {
   display: flex;
