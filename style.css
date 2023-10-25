@@ -308,3 +308,74 @@ section {
   gap: 1rem;
 }
 
+/* ABOUT SECTION */
+
+#about {
+  position: relative;
+}
+
+.section__text__p1 {
+  text-align: center;
+}
+
+.section__text__p1 span{
+  color: var(--color-primary);
+}
+
+.about-containers {
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.about-details-container {
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about-containers, .about-details-container {
+  display: flex ;
+}
+
+.about-pic {
+  border-radius: 90px;
+}
+
+.arrow {
+  position: absolute;
+  right: -5rem;
+  bottom: 2.5rem;
+}
+
+.details-container {
+  padding: 1.5rem;
+  flex: 1;
+  /* background: var(--color-background); */
+  border-radius: 90px;
+  /* border: var(--color-on-background) 0.1rem solid;
+  border-color: var(--color-on-primary-container); */
+  text-align: center;
+}
+
+.details-container h3 {
+  color: var(--color-on-background);
+} 
+
+.details-container p {
+  color: var(--color-on-surface);
+} 
+
+.section-container {
+  gap: 4rem;
+  height: 80%;
+}
+
+.section__pic-container {
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+}
+
+.text-container p{
+  color: var(--color-on-surface);
+}
