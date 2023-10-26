@@ -92,6 +92,10 @@ nav {
   font-size: 1.5rem;
 }
 
+.nav-links span {
+  color: var(--color-primary);
+}
+
 a {
   color: var(--color-on-surface);
   text-decoration: none;
@@ -250,7 +254,6 @@ section {
   color: var(--color-primary);
 }
 
-
 #socials-container {
   display: flex;
   justify-content: center;
@@ -279,6 +282,7 @@ section {
   padding: 1rem;
   width: 10rem;
   border-radius: 2rem;
+  font-size: 1rem;
 }
 
 .btn-color-1, .btn-color-2 {
@@ -350,11 +354,12 @@ section {
 .details-container {
   padding: 1.5rem;
   flex: 1;
-  /* background: var(--color-background); */
+  background: var(--color-surface-container-low);
   border-radius: 90px;
   /* border: var(--color-on-background) 0.1rem solid;
   border-color: var(--color-on-primary-container); */
   text-align: center;
+  border-left: 6px solid var(--color-primary);
 }
 
 .details-container h3 {
@@ -378,4 +383,42 @@ section {
 
 .text-container p{
   color: var(--color-on-surface);
+}
+
+/* EXPERIENCE SECTION */
+
+#experience {
+  position: relative;
+}
+
+.experience-sub-title {
+  font-weight: 600;
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+.experience-details-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.article-container {
+  display: flex;
+  text-align: initial;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: space-around;
+}
+
+article {
+  display: flex;
+  width: 10rem;
+  justify-content: space-around;
+  gap: 0.5rem;
+}
+
+article .icon {
+  cursor: default;
 }
