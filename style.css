@@ -96,6 +96,10 @@ nav {
   color: var(--color-primary);
 }
 
+a:hover span {
+  text-decoration: underline;
+}
+
 a {
   color: var(--color-on-surface);
   text-decoration: none;
@@ -421,4 +425,78 @@ article {
 
 article .icon {
   cursor: default;
+}
+
+/* PROJECTS SECTION */
+
+#projects {
+  position: relative;
+}
+
+.color-container {
+  border-color: var(--color-primary);
+  background: var(--color-surface-container-low);
+}
+
+.project-img {
+  border-radius: 90px;
+  width: 90%;
+  height: 90%;
+}
+
+.project-title {
+  margin: 1rem;
+  color: var(--color-on-background);
+}
+
+.project-btn {
+  color: var(--color-on-primary);
+  border-color: var(--color-primary);
+}
+
+/* CONTACT SECTION */
+
+ #contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 70vh;
+}
+
+.contact-info-upper-container {
+  display: flex;
+  justify-content: center;
+  border-radius: 90px;
+  border-left: 6px solid var(--color-primary);
+  background: var(--color-surface-container-low);
+  margin: 2rem auto;
+  padding: 0.5rem;
+}
+
+.contact-info-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 2rem;
+}
+
+.contact-info-container p {
+  font-size: larger;
+  margin: 0 auto;
+}
+
+.contact-icon {
+  cursor: default;
+} 
+
+/* FOOTER */
+
+footer {
+  height: 26vh;
+  margin: 0 1rem;
+}
+
+footer p {
+  text-align: center;
 }
