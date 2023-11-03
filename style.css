@@ -500,3 +500,36 @@ footer {
 footer p {
   text-align: center;
 }
+
+.nav-links-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ANIMATE ON SCROLL */
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+
+.hid {
+  opacity: 0;
+  filter: blur(5px);
+  transition: all 1s;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+
+.details-container:nth-child(2) {
+  transition-delay: 200ms;
+}
+.details-container:nth-child(3) {
+  transition-delay: 400ms;
+}
